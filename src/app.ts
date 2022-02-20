@@ -17,7 +17,7 @@ app.use('/', routes)
 //  res.send('We Are Live')
 // });
 
-app.listen(port, ()=>{
+app.listen(port, ()=>{ 
     console.log(`Listening on port:${port}`);
     
 })
